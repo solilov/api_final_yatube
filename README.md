@@ -26,6 +26,9 @@
 ```
   - Выполняем миграции
 ```html
+    python manage.py makemigrations 
+```
+```html
     python manage.py migrate 
 ```
   - Запускаем сервер
