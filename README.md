@@ -36,6 +36,10 @@
 ```html
     pip install -r requirements.txt 
 ```
+- Создаем в корне приложения файл .env по аналогии с файлом .env.example
+```html
+    touch .env
+```
   - Выполняем миграции
 ```html
     python manage.py migrate 
